@@ -1,0 +1,131 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/bg1.jpg);
+    background-size:cover;
+}
+
+.backgroundDiv img{
+	width: 1380px;
+	height: 400px;
+}
+
+.box
+{
+	width:400px;
+	float:right;
+	border:1px solid none;
+}
+.box ul li 
+{
+	width:88px;
+	float:left;
+	margin:50px auto;
+	margin-top:-25px;
+	text-align:center;
+}
+.box ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.box ul li:hover
+{
+	background-color:#DD571C;
+}
+
+#gallery_list{
+	color:white;
+	font-size:10pt;
+	background: #331a00;
+	margin-top: 0%;
+	margin-right: 0%;
+	width: 358px;
+	height: 798px;
+	opacity: 0.75;
+	float: left;
+}
+
+h1{
+	margin-top:5px;
+	font-style:italic;
+}
+
+#list{
+	border-top: 2px solid white;
+	margin-top: 5%;
+}
+
+h5{
+	font-style:italic;
+	font-size: 10px;
+	font-family:arial;
+}
+
+ul{
+	margin-top: 20%;
+	font-size: 10pt;
+	color: white;
+	font-family: verdana;
+}
+
+#gallery_img{
+	width: 960px;
+	height: 798px;
+	background: #331a00;
+	float: right;
+	margin-top: 0%;
+	margin-bottom: 0.68%;
+	opacity: 0.75;
+}
+
+.me, .best, .sib, .fa, .mom, .first, .sis, .scd, .nie{
+	margin-top: 5%;
+	margin-right: 0%;
+	float: left;
+	width: 310px;
+	height: 200px;
+	border: 1px solid none;
+	position: relative;
+	cursor: pointer; 
+}
+
+.me:hover .me-s, .best:hover .best-s, .sib:hover .sib-s, .fa:hover .fa-s, .mom:hover .mom-s, .first:hover .first-s, .sis:hover .sis-s, .scd:hover .scd-s, .nie:hover .nie-s{
+	height: 230px;
+}
+
+.me img, .best img, .sib img, .fa img, .mom img, .first img, .sis img, .scd img, .nie img{
+	display: block;
+	width: 300px;
+	height: 230px;
+}
+
+.me-s, .best-s, .sib-s, .fa-s, .mom-s, .first-s, .sis-s, .scd-s, .nie-s{
+	width: 300px;
+	height: 00px;
+	background: #ff980094;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.7s ease;
+}
+
+.me-s h2, .best-s h2, .sib-s h2,.fa-s h2, .mom-s h2, .first-s h2, .sis-s h2, .scd-s h2, .nie-s h2, .me h2, .best h2, .sib h2, .fa h2, .mom h2, .first h2, .sis h2, .scd h2, .nie h2{
+	color: white;
+	font-size: 20px;
+	border: 6px solid white;
+	padding: 10px 30px;
+}
+
+li{
+	margin-top: 5%;
+        text-aligin: left;
+}
+
+li:hover{
+	color: #ffc107;
+}
+
+

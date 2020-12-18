@@ -1,0 +1,80 @@
+
+body
+  {
+    font-family: 'Bell MT';
+    background-color: pink;
+    margin:0;
+    color:black;
+
+}
+
+.container {
+    padding: 1em;
+}
+ol {
+  background: #ff8099;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 2px;
+  margin-left: 20px;
+
+}
+
+footer {
+    background-color:black;
+}
+
+ul {
+    margin:0;padding:0;
+}
+ul li {
+    padding: 2em;
+    color:#E98A8A;
+}
+ul li span {
+    display:block;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color: brown;
+}
+.container {
+    display:grid;
+     grid-template-columns: 70%auto;
+    padding: 1em;
+}
+ul {
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+{
+    font-family: 'Bell MT';
+    background-color:pink;
+    margin:0;
+    color:purple;
+}
+
+	margin-top: 5%;
+	margin-right: 0%;
+	float: left;
+	width: 310px;
+	height: 200px;
+	border: 1px solid none;
+	position: relative;
+	cursor: pointer; 
+}
+li{
+	margin-top: 5%;
+        text-aligin: left;
+}
+
+li:hover{
+	color: #35968e;
+
+
+
