@@ -1,0 +1,98 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/bg1.jpg);
+    background-size:cover;
+}
+.box
+{
+	width:900px;
+	float:right;
+	border:1px solid none;
+}
+.box ul li 
+{
+	width:152px;
+	float:left;
+	margin:10px auto;
+	text-align:center;
+}
+.box ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.box ul li:hover
+{
+	background-color:#DD571C;
+}
+.wlcm
+{
+	width:300px;
+	height:547px;
+	background-color:black;
+	opacity:0.75;
+	padding:55px;
+}
+.wlcm h1
+{
+	color:white;
+	text-align:center;
+	font-weight:100px;
+	margin-top:68px;
+}
+.wlcm h4
+{
+	color:white;
+	text-align:justify;
+	font-weight:normal;
+}
+
+p
+{
+	color:white;
+	text-align:center;
+	margin-top:45px;
+}
+
+#ways{
+	border-top: 5px solid white;
+	margin-top: 10%;
+}
+
+#detail{
+	text-align: center;
+	color: #EFFD5F;
+	font-style: italic;
+	font-size: 18pt;
+	margin-top:65px;
+}
+
+.m_icon{
+	margin-left: 8%;
+	margin-top: 0%;
+	font-size: 20pt;
+	color: #ccc;
+}
+
+.wt_icon, .mail_icon, .fb_icon, .ins_icon{
+	margin-left: 8%;
+	margin-top: 5%;
+	font-size: 12pt;
+	color: #ccc;
+}
+
+.wt_icon:hover, .m_icon:hover, .mail_icon:hover, .fb_icon:hover, .ins_icon:hover{
+	color:#e28d26;
+}
+
+b{
+	text-align: left;
+	padding-left: 5%;
+	font-size: 12pt;
+	font-family: calibri;
+}
